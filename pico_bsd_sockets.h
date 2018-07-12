@@ -36,7 +36,7 @@ extern void   *pico_signal_tick;
     #include <netinet/tcp.h>
     #include <netdb.h>
     #include <fcntl.h>
-    #include <sys/poll.h>
+    #include <poll.h>
     #include <sys/time.h>
     #ifdef __linux__
         #include <linux/tcp.h>
